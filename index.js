@@ -8,18 +8,17 @@ homebtn.addEventListener('click', () => {
 
 aboutbtn.addEventListener('click', () => {
     aboutbtn.classList.toggle('stafilosfereba')
+    homebtn.classList.toggle('gatetreba')
 })
 
-skillbtn.addEventListener('click', () => {
-    skillbtn.classList.toggle('stafilosfereba')
-})
 
 
 function activate1(){
-    document.querySelector('.home').classList.toggle('slideinhome1')
+    document.querySelector('.home').classList.toggle('slideinhome2')
 }
 
 function activate2(){
+    document.querySelector('.home').classList.toggle('slideinhome2')
     document.querySelector('.aboutme').classList.toggle('slideinhome2')
 }
 
