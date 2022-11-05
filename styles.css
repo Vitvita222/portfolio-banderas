@@ -1,0 +1,128 @@
+/*'Kaushan Script', cursive*/
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+
+/*'Bebas Neue', cursive*/
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+
+
+body{
+    background-color: rgb(32, 32, 32);
+}
+
+.sideheader{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 500px;
+    height: 970px;
+    background-color: rgb(41, 41, 41);
+}
+
+.name {
+    position: absolute;
+    top: 100px;
+    left: 160px;
+    font-family: 'Kaushan Script', cursive;
+    color: rgb(255, 157, 0);
+    font-size:55px;
+}
+
+.homebtn{
+    position: absolute;
+    width: 150px;
+    height: 60px;
+    top: 380px;
+    left: 150px;
+    background-color: transparent;
+    border: 0px;
+    color: white;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 30px;
+    border-bottom: 1px solid grey;
+}
+.homebtn::after{
+    content: '';
+    height: 2px;
+    width: 0%;
+    background-color: white;
+    display: block;
+    transition: .5s ease-in-out;
+}
+.homebtn:hover::after{
+    content: '';
+    height: 2px;
+    width: 100%;
+    background-color: white;
+    display: block;
+    transition: .5s ease-in-out;
+}
+.homebtn:hover{
+    cursor: pointer;
+}
+
+.about{
+    position: absolute;
+    width: 150px;
+    height: 60px;
+    top: 490px;
+    left: 150px;
+    background-color: transparent;
+    border: 0px;
+    color: white;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 30px;
+    border-bottom: 1px solid grey;
+}
+.about::after{
+    content: '';
+    height: 2px;
+    width: 0%;
+    background-color: white;
+    display: block;
+    transition: .5s ease-in-out;
+}
+.about:hover::after{
+    content: '';
+    height: 2px;
+    width: 100%;
+    background-color: white;
+    display: block;
+    transition: .5s ease-in-out;
+}
+.about:hover{
+    cursor: pointer;
+}
+
+.skill{
+    position: absolute;
+    width: 150px;
+    height: 60px;
+    top: 600px;
+    left: 150px;
+    background-color: transparent;
+    border: 0px;
+    color: white;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 30px;
+    border-bottom: 1px solid grey;
+}
+.skill::after{
+    content: '';
+    height: 2px;
+    width: 0%;
+    background-color: white;
+    display: block;
+    transition: .5s ease-in-out;
+}
+.skill:hover::after{
+    content: '';
+    height: 2px;
+    width: 100%;
+    background-color: white;
+    display: block;
+    transition: .5s ease-in-out;
+}
+.skill:hover{
+    cursor: pointer;
+}
