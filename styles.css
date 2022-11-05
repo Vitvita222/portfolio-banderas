@@ -8,7 +8,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Xanh+Mono&display=swap');
 
 body{
-    overflow-y: hidden;
     overflow-x: hidden;
     background-color: rgb(32, 32, 32);
 }
